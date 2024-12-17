@@ -1,0 +1,46 @@
+{
+  "name": "backend-library",
+  "version": "1.0.0",
+  "description": "Library system",
+  "keywords": [
+    "library",
+    "system",
+    "application",
+    "ifpe"
+  ],
+  "authors": [
+    "Arthur Arruda",
+    "Italo Jose",
+    "Kátia Acioli",
+    "Jorge Lemos",
+    "Willie Grimaldi"
+  ],
+  "license": "MIT",
+  "main": "dist/server.js",
+  "engines": {
+    "node": "20.x"
+  },
+  "type": "module",
+  "markdown": "github",
+  "scripts": {
+    "test": "jest",
+    "start": "node dist/server.js",
+    "dev": "nodemon src/server.js",
+    "build": ""
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@prisma/client": "^5.18.0",
+    "dotenv": "^16.4.5",
+    "jsonwebtoken": "^9.0.2",
+    "node": "^20.16.0",
+    "nodemon": "^3.1.4",
+    "prisma": "^5.18.0",
+    "zod": "^3.23.8"
+  }
+}

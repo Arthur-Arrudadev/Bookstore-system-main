@@ -1,0 +1,55 @@
+{
+    "navbar": {
+        "bg": "#1f2937",
+        "brand": "#ffffff",
+        "profile": {
+            "text": "#ffffff",
+            "image": {
+                "bg": "#374151"
+            }
+        },
+        "button": {
+            "bg": "#374151",
+            "text": "#ffffff",
+            "hover": "#374151"
+        }
+    },
+    "home": {
+        "bg": "#111827",
+        "title": "#ffffff",
+        "text": ""
+    },
+    "dashboard": {
+        "sidebar": {
+            "bg": "#374151",
+            "border": "#1f2937",
+            "links": {
+                "bg": "#1f2937",
+                "hover": "#111827",
+                "text": "#ffffff",
+                "icons": "#ffffff"
+            }
+        }
+    },
+    "form": {
+        "bg": "#1f2937",
+        "label": {
+            "text": "#ffffff"
+        },
+        "header": {
+            "title": "#4c5a70"
+        },
+        "input": {
+            "bg": "#374151",
+            "text": "#ffffff"
+        },
+        "button": {
+            "bg": "#293445",
+            "text": "#ffffff"
+        },
+        "link": {
+            "text": "#ffffff",
+            "text_hover": "#323c99"
+        }
+    }
+}
